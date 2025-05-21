@@ -1,0 +1,1202 @@
+newmtl Tentacleoverlay12Mtl
+Material Color
+Ka 0.238828 0.368591 1
+Kd 0.238828 0.368591 1
+Ks 0.0215413 0.0332455 0.0901961 
+
+d 0.4
+
+Ns 0
+
+map_Ka Tentacleoverlay12_diff.png
+map_Kd Tentacleoverlay12_diff.png
+map_d Tentacleoverlay12_diff.png
+
+newmtl Meshesdoorsjeffsigncube2Mtl
+Material Color
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0 
+
+d 0.803922
+
+Ns 0
+
+map_Ka Meshesdoorsjeffsigncube2_diff.png
+map_Kd Meshesdoorsjeffsigncube2_diff.png
+map_d Meshesdoorsjeffsigncube2_diff.png
+
+newmtl Wall1Mtl
+Material Color
+Ka 0.0986892 0.176774 0.180144
+Kd 0.0986892 0.176774 0.180144
+Ks 0.00541823 0.00970526 0.00989028 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Shelves1Mtl
+Material Color
+Ka 0.147998 0.0986892 0.0915184
+Kd 0.147998 0.0986892 0.0915184
+Ks 0.00812538 0.00541823 0.00502454 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Part7Mtl
+Material Color
+Ka 0.0780566 0.0528416 0.0399472
+Kd 0.0780566 0.0528416 0.0399472
+Ks 0.00428546 0.00290111 0.00219318 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Floor1Mtl
+Material Color
+Ka 0.113921 0.0846415 0.0802193
+Kd 0.113921 0.0846415 0.0802193
+Ks 0.00848823 0.00630662 0.00597712 
+
+d 1
+
+Ns 0
+
+map_Ka Floor1_diff.png
+map_Kd Floor1_diff.png
+map_d Floor1_diff.png
+
+map_Bump Floor1_nmap.png
+
+map_Ns Floor1_spec.png
+
+newmtl Base15Mtl
+Material Color
+Ka 0.0511221 0.0342302 0.0315514
+Kd 0.0511221 0.0342302 0.0315514
+Ks 0.0028067 0.00187931 0.00173223 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Void1Mtl
+Material Color
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0 
+
+d 1
+
+Ns 0
+
+newmtl Wallstrip1Mtl
+Material Color
+Ka 0.180144 0.121986 0.111299
+Kd 0.180144 0.121986 0.111299
+Ks 0.00989028 0.00669726 0.00611056 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Wall2Mtl
+Material Color
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0 
+
+d 0.152941
+
+Ns 0
+
+map_Ka Wall2_diff.png
+map_Kd Wall2_diff.png
+map_d Wall2_diff.png
+
+newmtl Meshesradiocube0021Mtl
+Material Color
+Ka 0.0302565 0.0231036 0.018913
+Kd 0.0302565 0.0231036 0.018913
+Ks 0.00439016 0.00335228 0.00274424 
+
+d 1
+
+Ns 0
+
+map_Ka Meshesradiocube0021_diff.png
+map_Kd Meshesradiocube0021_diff.png
+map_d Meshesradiocube0021_diff.png
+
+map_Bump Meshesradiocube0021_nmap.png
+
+map_Ns Meshesradiocube0021_spec.png
+
+newmtl Stand1Mtl
+Material Color
+Ka 0.0414519 0.0231036 0.0151752
+Kd 0.0414519 0.0231036 0.0151752
+Ks 0.0276346 0.0154024 0.0101168 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Ceilingdetail3Mtl
+Material Color
+Ka 0.147998 0.101145 0.0915184
+Kd 0.147998 0.101145 0.0915184
+Ks 0.0110273 0.00753631 0.00681902 
+
+d 1
+
+Ns 0
+
+map_Ka Floor1_diff.png
+map_Kd Floor1_diff.png
+map_d Floor1_diff.png
+
+map_Bump Floor1_nmap.png
+
+map_Ns Floor1_spec.png
+
+newmtl Tablecloth1Mtl
+Material Color
+Ka 0.0657539 0.0253713 0.0342302
+Kd 0.0657539 0.0253713 0.0342302
+Ks 0.00257858 0.000994952 0.00134236 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Wallstrip12Mtl
+Material Color
+Ka 0.180144 0.121986 0.111299
+Kd 0.180144 0.121986 0.111299
+Ks 0.0134225 0.00908913 0.0082929 
+
+d 1
+
+Ns 0
+
+map_Ka Floor1_diff.png
+map_Kd Floor1_diff.png
+map_d Floor1_diff.png
+
+map_Bump Floor1_nmap.png
+
+map_Ns Floor1_spec.png
+
+newmtl Wood1Mtl
+Material Color
+Ka 0.0494335 0.0328759 0.0242229
+Kd 0.0494335 0.0328759 0.0242229
+Ks 0.00271399 0.00180495 0.00132989 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Ceilingdetail1Mtl
+Material Color
+Ka 0.147998 0.101145 0.0915184
+Kd 0.147998 0.101145 0.0915184
+Ks 0.00812538 0.00555307 0.00502454 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Skulldetail1Mtl
+Material Color
+Ka 0.91575 0.851252 0.812241
+Kd 0.91575 0.851252 0.812241
+Ks 0.0395029 0.0367207 0.0350379 
+
+d 1
+
+Ns 0
+
+map_Ka Pot1_diff.png
+map_Kd Pot1_diff.png
+map_d Pot1_diff.png
+
+map_Bump Pot1_nmap.png
+
+map_Ns Pot1_spec.png
+
+newmtl Carpetlight1Mtl
+Material Color
+Ka 0.0600316 0.0563741 0.0563741
+Kd 0.0600316 0.0563741 0.0563741
+Ks 0.00164793 0.00154752 0.00154752 
+
+d 1
+
+Ns 0
+
+map_Ka Carpetlight1_diff.png
+map_Kd Carpetlight1_diff.png
+map_d Carpetlight1_diff.png
+
+map_Bump Carpetlight1_nmap.png
+
+map_Ns Carpetlight1_spec.png
+
+newmtl Boards4Mtl
+Material Color
+Ka 0.173439 0.101145 0.0657539
+Kd 0.173439 0.101145 0.0657539
+Ks 0.00952214 0.00555307 0.00361002 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Carpetlight2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.027451 0.027451 0.027451 
+
+d 0.0313726
+
+Ns 0
+
+map_Ka Carpetlight2_diff.png
+map_Kd Carpetlight2_diff.png
+map_d Carpetlight2_diff.png
+
+newmtl Wallstrip60Mtl
+Material Color
+Ka 0.144972 0.0986892 0.0891935
+Kd 0.144972 0.0986892 0.0891935
+Ks 0.00795926 0.00541823 0.0048969 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Carpet1Mtl
+Material Color
+Ka 0.0494335 0.0461488 0.0461488
+Kd 0.0494335 0.0461488 0.0461488
+Ks 0.001357 0.00126683 0.00126683 
+
+d 1
+
+Ns 0
+
+map_Ka Carpetlight1_diff.png
+map_Kd Carpetlight1_diff.png
+map_d Carpetlight1_diff.png
+
+map_Bump Carpetlight1_nmap.png
+
+map_Ns Carpetlight1_spec.png
+
+newmtl Wallstrip63Mtl
+Material Color
+Ka 0.166872 0.113921 0.103634
+Kd 0.166872 0.113921 0.103634
+Ks 0.00916161 0.00625448 0.00568972 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Tag2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.027451 0.027451 0.027451 
+
+d 1
+
+Ns 0
+
+map_Ka Tag2_diff.png
+map_Kd Tag2_diff.png
+map_d Tag2_diff.png
+
+newmtl Base1Mtl
+Material Color
+Ka 0.103634 0.0600316 0.0384727
+Kd 0.103634 0.0600316 0.0384727
+Ks 0.00568972 0.00329585 0.00211223 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Handle1Mtl
+Material Color
+Ka 0.113921 0.0938759 0.0846415
+Kd 0.113921 0.0938759 0.0846415
+Ks 0.0759473 0.0625839 0.0564277 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Books3Mtl
+Material Color
+Ka 0.339223 0.339223 0.339223
+Kd 0.339223 0.339223 0.339223
+Ks 0.0133029 0.0133029 0.0133029 
+
+d 0.701961
+
+Ns 0
+
+map_Ka Books3_diff.png
+map_Kd Books3_diff.png
+map_d Books3_diff.png
+
+newmtl Part12Mtl
+Material Color
+Ka 0.0697271 0.0461488 0.0356144
+Kd 0.0697271 0.0461488 0.0356144
+Ks 0.00382815 0.00253366 0.0019553 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Meshesdoorsjeffsigncube1Mtl
+Material Color
+Ka 0.124741 0.0846415 0.0638149
+Kd 0.124741 0.0846415 0.0638149
+Ks 0.00684852 0.00464699 0.00350356 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Meshesdoorsjeffsigncylinder0011Mtl
+Material Color
+Ka 0.0169881 0.00715504 0.0050282
+Kd 0.0169881 0.00715504 0.0050282
+Ks 0.000666198 0.00028059 0.000197184 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Seat1Mtl
+Material Color
+Ka 0.103634 0.0677246 0.0511221
+Kd 0.103634 0.0677246 0.0511221
+Ks 0.00568972 0.00371821 0.0028067 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Pillow1Mtl
+Material Color
+Ka 0.302126 0.302126 0.373615
+Kd 0.302126 0.302126 0.373615
+Ks 0.0118481 0.0118481 0.0146516 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Base12Mtl
+Material Color
+Ka 0.0461488 0.0302565 0.022013
+Kd 0.0461488 0.0302565 0.022013
+Ks 0.00253366 0.00166114 0.00120856 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Books1Mtl
+Material Color
+Ka 0.00604059 0.0033027 0.00226295
+Kd 0.00604059 0.0033027 0.00226295
+Ks 0.000236886 0.000129518 8.87433e-05 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Lightfixture1Mtl
+Material Color
+Ka 0.0869013 0.0477758 0.0302565
+Kd 0.0869013 0.0477758 0.0302565
+Ks 0.0579342 0.0318505 0.020171 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Trunk1Mtl
+Material Color
+Ka 0.151058 0.0962661 0.0677246
+Kd 0.151058 0.0962661 0.0677246
+Ks 0.00829338 0.0052852 0.00371821 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Plant1Mtl
+Material Color
+Ka 0.0494335 0.113921 0.0600316
+Kd 0.0494335 0.113921 0.0600316
+Ks 0.00193857 0.00446749 0.00235418 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Pillow3Mtl
+Material Color
+Ka 0.632043 0.358654 0.130352
+Kd 0.632043 0.358654 0.130352
+Ks 0.024786 0.0140649 0.00511185 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Dirt1Mtl
+Material Color
+Ka 0.0915184 0.0511221 0.0328759
+Kd 0.0915184 0.0511221 0.0328759
+Ks 0.00358896 0.00200479 0.00128925 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Pot1Mtl
+Material Color
+Ka 0.227137 0.0759261 0.0759261
+Kd 0.227137 0.0759261 0.0759261
+Ks 0.00979805 0.00327524 0.00327524 
+
+d 1
+
+Ns 0
+
+map_Ka Pot1_diff.png
+map_Kd Pot1_diff.png
+map_d Pot1_diff.png
+
+map_Bump Pot1_nmap.png
+
+map_Ns Pot1_spec.png
+
+newmtl Books2Mtl
+Material Color
+Ka 0.38891 0.38891 0.38891
+Kd 0.38891 0.38891 0.38891
+Ks 0.0152514 0.0152514 0.0152514 
+
+d 0.501961
+
+Ns 0
+
+map_Ka Books2_diff.png
+map_Kd Books2_diff.png
+map_d Books2_diff.png
+
+newmtl Books4Mtl
+Material Color
+Ka 0.0253713 0.0160677 0.0143105
+Kd 0.0253713 0.0160677 0.0143105
+Ks 0.000994952 0.000630106 0.000561197 
+
+d 0.101961
+
+Ns 0
+
+map_Ka Books4_diff.png
+map_Kd Books4_diff.png
+map_d Books4_diff.png
+
+newmtl Neon1Mtl
+Material Color
+Ka 0.554227 0.363604 0.271577
+Kd 0.554227 0.363604 0.271577
+Ks 0.0499891 0.0327956 0.0244952 
+
+d 0.901961
+
+Ns 0
+
+newmtl Lid1Mtl
+Material Color
+Ka 0.0780566 0.0638149 0.0581872
+Kd 0.0780566 0.0638149 0.0581872
+Ks 0.0520377 0.0425432 0.0387915 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Base17Mtl
+Material Color
+Ka 0.0414519 0.0231036 0.0151752
+Kd 0.0414519 0.0231036 0.0151752
+Ks 0.00227579 0.00126843 0.00083315 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Handle3Mtl
+Material Color
+Ka 0.0802193 0.0563741 0.0461488
+Kd 0.0802193 0.0563741 0.0461488
+Ks 0.0044042 0.00309505 0.00253366 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Hitbox1Mtl
+Material Color
+Ka 0.0915184 0.0511221 0.0328759
+Kd 0.0915184 0.0511221 0.0328759
+Ks 0.00502454 0.0028067 0.00180495 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Eyeright1Mtl
+Material Color
+Ka 0.2468 0.271577 0.447871
+Kd 0.2468 0.271577 0.447871
+Ks 0.0222604 0.0244952 0.0403962 
+
+d 1
+
+Ns 0
+
+newmtl Meshesdoorsbigdoor1Mtl
+Material Color
+Ka 0.0356144 0.0328759 0.0315514
+Kd 0.0356144 0.0328759 0.0315514
+Ks 0.00698321 0.00644626 0.00618655 
+
+d 1
+
+Ns 255
+
+map_Bump Meshesdoorsbigdoor1_nmap.png
+
+map_Ns Meshesdoorsbigdoor1_spec.png
+
+newmtl Lid2Mtl
+Material Color
+Ka 0.541798 0.38891 0.315763
+Kd 0.541798 0.38891 0.315763
+Ks 0.0339952 0.0244022 0.0198126 
+
+d 1
+
+Ns 0
+
+newmtl Sparker1Mtl
+Material Color
+Ka 0.25084 0.20471 0.183549
+Kd 0.25084 0.20471 0.183549
+Ks 0.167227 0.136473 0.122366 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Meshesradiocylinder1Mtl
+Material Color
+Ka 0.38891 0.415148 0.529523
+Kd 0.38891 0.415148 0.529523
+Ks 0.259274 0.276765 0.353016 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Effectsholder1Mtl
+Material Color
+Ka 0.176774 0.144972 0.130352
+Kd 0.176774 0.144972 0.130352
+Ks 0.00762556 0.0062537 0.00562304 
+
+d 1
+
+Ns 0
+
+map_Ka Pot1_diff.png
+map_Kd Pot1_diff.png
+map_d Pot1_diff.png
+
+map_Bump Pot1_nmap.png
+
+map_Ns Pot1_spec.png
+
+newmtl Meshesradiocylinder0011Mtl
+Material Color
+Ka 0.0545923 0.0563741 0.0738278
+Kd 0.0545923 0.0563741 0.0738278
+Ks 0.0363949 0.0375827 0.0492185 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Meshesradiocylinder2Mtl
+Material Color
+Ka 0.136099 0.14198 0.186989
+Kd 0.136099 0.14198 0.186989
+Ks 0.0907324 0.0946535 0.124659 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Stufftop1Mtl
+Material Color
+Ka 0.632043 0.436813 0.325037
+Kd 0.632043 0.436813 0.325037
+Ks 0.250338 0.173012 0.12874 
+
+d 1
+
+Ns 0
+
+newmtl Meshesradiocube0011Mtl
+Material Color
+Ka 0.344026 0.25084 0.183549
+Kd 0.344026 0.25084 0.183549
+Ks 0.0188877 0.0137716 0.0100772 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl 11Mtl
+Material Color
+Ka 0.84337 0.47044 0.2468
+Kd 0.84337 0.47044 0.2468
+Ks 0.562247 0.313627 0.164534 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Tag1Mtl
+Material Color
+Ka 0.383775 0.353741 0.302126
+Kd 0.383775 0.353741 0.302126
+Ks 0.010535 0.00971054 0.00829364 
+
+d 1
+
+Ns 0
+
+map_Ka Carpetlight1_diff.png
+map_Kd Carpetlight1_diff.png
+map_d Carpetlight1_diff.png
+
+map_Bump Carpetlight1_nmap.png
+
+map_Ns Carpetlight1_spec.png
+
+newmtl Base19Mtl
+Material Color
+Ka 0.144972 0.163641 0.20471
+Kd 0.144972 0.163641 0.20471
+Ks 0.0966481 0.109094 0.136473 
+
+d 0.603922
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
+newmtl Handle2Mtl
+Material Color
+Ka 0.0600316 0.0315514 0.018913
+Kd 0.0600316 0.0315514 0.018913
+Ks 0.0600316 0.0315514 0.018913 
+
+d 1
+
+Ns 0
+
+map_Ka Handle2_diff.png
+map_Kd Handle2_diff.png
+map_d Handle2_diff.png
+
+map_Bump Handle2_nmap.png
+
+map_Ns Handle2_spec.png
+
+newmtl Label1Mtl
+Material Color
+Ka 0.541798 0.38891 0.315763
+Kd 0.541798 0.38891 0.315763
+Ks 0.0148729 0.010676 0.008668 
+
+d 1
+
+Ns 0
+
+map_Ka Carpetlight1_diff.png
+map_Kd Carpetlight1_diff.png
+map_d Carpetlight1_diff.png
+
+map_Bump Carpetlight1_nmap.png
+
+map_Ns Carpetlight1_spec.png
+
+newmtl Handle4Mtl
+Material Color
+Ka 0.197516 0.183549 0.173439
+Kd 0.197516 0.183549 0.173439
+Ks 0.00852032 0.0079178 0.00748168 
+
+d 1
+
+Ns 0
+
+map_Ka Pot1_diff.png
+map_Kd Pot1_diff.png
+map_d Pot1_diff.png
+
+map_Bump Pot1_nmap.png
+
+map_Ns Pot1_spec.png
+
+newmtl Skulldetail2Mtl
+Material Color
+Ka 0.280124 0.259027 0.2468
+Kd 0.280124 0.259027 0.2468
+Ks 0.0120838 0.0111737 0.0106463 
+
+d 1
+
+Ns 0
+
+map_Ka Pot1_diff.png
+map_Kd Pot1_diff.png
+map_d Pot1_diff.png
+
+map_Bump Pot1_nmap.png
+
+map_Ns Pot1_spec.png
+
+newmtl Skulldetail3Mtl
+Material Color
+Ka 0.464741 0.43134 0.409826
+Kd 0.464741 0.43134 0.409826
+Ks 0.0200477 0.0186068 0.0176788 
+
+d 1
+
+Ns 0
+
+map_Ka Pot1_diff.png
+map_Kd Pot1_diff.png
+map_d Pot1_diff.png
+
+map_Bump Pot1_nmap.png
+
+map_Ns Pot1_spec.png
+
+newmtl Eyeholes1Mtl
+Material Color
+Ka 0.00715504 0.018913 0.0315514
+Kd 0.00715504 0.018913 0.0315514
+Ks 0.00028059 0.000741686 0.00123731 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Pillow4Mtl
+Material Color
+Ka 0.2468 0.0399472 0.0399472
+Kd 0.2468 0.0399472 0.0399472
+Ks 0.00967845 0.00156656 0.00156656 
+
+d 1
+
+Ns 0
+
+map_Ka Tablecloth1_diff.png
+map_Kd Tablecloth1_diff.png
+map_d Tablecloth1_diff.png
+
+map_Bump Tablecloth1_nmap.png
+
+map_Ns Tablecloth1_spec.png
+
+newmtl Door1Mtl
+Material Color
+Ka 0.22331 0.160444 0.12753
+Kd 0.22331 0.160444 0.12753
+Ks 0.0122602 0.00880866 0.00700164 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Sign1Mtl
+Material Color
+Ka 0.363604 0.259027 0.212044
+Kd 0.363604 0.259027 0.212044
+Ks 0.0199626 0.0142211 0.0116417 
+
+d 1
+
+Ns 0
+
+map_Ka Wallstrip1_diff.png
+map_Kd Wallstrip1_diff.png
+map_d Wallstrip1_diff.png
+
+map_Bump Wallstrip1_nmap.png
+
+map_Ns Wallstrip1_spec.png
+
+newmtl Knob1Mtl
+Material Color
+Ka 0.311181 0.254916 0.234895
+Kd 0.311181 0.254916 0.234895
+Ks 0.207454 0.169944 0.156597 
+
+d 1
+
+Ns 255
+
+map_Ka Stand1_diff.png
+map_Kd Stand1_diff.png
+map_d Stand1_diff.png
+
+map_Bump Stand1_nmap.png
+
+map_Ns Stand1_spec.png
+
