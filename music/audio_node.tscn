@@ -1,0 +1,38 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://music/se/system/enter_main.wav" type="AudioStream" id=2]
+[ext_resource path="res://music/se/system/back_main.wav" type="AudioStream" id=3]
+[ext_resource path="res://music/se/system/cursor_main.wav" type="AudioStream" id=4]
+[ext_resource path="res://music/se/items/flashlight.wav" type="AudioStream" id=5]
+[ext_resource path="res://music/bgs/pause_music.mp3" type="AudioStream" id=6]
+[ext_resource path="res://music/bgs/play_music.mp3" type="AudioStream" id=7]
+
+[node name="audio" type="Node"]
+
+[node name="bgm" type="Node" parent="."]
+
+[node name="play_music" type="AudioStreamPlayer" parent="bgm"]
+stream = ExtResource( 7 )
+volume_db = -30.0
+
+[node name="pause_music" type="AudioStreamPlayer" parent="bgm"]
+stream = ExtResource( 6 )
+volume_db = -10.0
+
+[node name="se" type="Node" parent="."]
+
+[node name="back_main" type="AudioStreamPlayer" parent="se"]
+stream = ExtResource( 3 )
+volume_db = -20.0
+
+[node name="cursor_main" type="AudioStreamPlayer" parent="se"]
+stream = ExtResource( 4 )
+volume_db = -20.0
+
+[node name="enter_main" type="AudioStreamPlayer" parent="se"]
+stream = ExtResource( 2 )
+volume_db = -20.0
+
+[node name="flashlight" type="AudioStreamPlayer" parent="se"]
+stream = ExtResource( 5 )
+volume_db = -5.0

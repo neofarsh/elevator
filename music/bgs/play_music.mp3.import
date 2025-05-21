@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/play_music.mp3-a6822f37dcee53bec2ab9c5a07ec6ae1.mp3str"
+
+[deps]
+
+source_file="res://music/bgs/play_music.mp3"
+dest_files=[ "res://.import/play_music.mp3-a6822f37dcee53bec2ab9c5a07ec6ae1.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

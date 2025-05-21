@@ -1,0 +1,215 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://data/material/wall.tres" type="Material" id=1]
+[ext_resource path="res://data/script/random_door.gd" type="Script" id=2]
+[ext_resource path="res://data/material/platform.tres" type="Material" id=3]
+
+[sub_resource type="GDScript" id=4]
+script/source = "extends Spatial
+
+func _ready():
+	var random = randi()%10 + 1
+	if random <= 3:
+		$wall/rand_separator/left.queue_free()
+	elif random >= 8:
+		$wall/rand_separator/right.queue_free()
+	else:
+		$wall/rand_separator/left.queue_free()
+		$wall/rand_separator/right.queue_free()
+
+"
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 2, 3, 1 )
+
+[node name="room" type="Spatial"]
+script = SubResource( 4 )
+
+[node name="door_node" type="Spatial" parent="."]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="area_trigger" type="Area" parent="door_node"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
+
+[node name="collision_shape" type="CollisionShape" parent="door_node/area_trigger"]
+shape = SubResource( 2 )
+
+[node name="position" type="Position3D" parent="door_node"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -36 )
+
+[node name="wall" type="Spatial" parent="."]
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="start" type="CSGPolygon" parent="wall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -35.8 )
+use_collision = true
+polygon = PoolVector2Array( 8, 8, 8, 0, 2, 0, 2, 5, -2, 5, -2, 0, -8, 0, -8, 8 )
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="rand_separator" type="Spatial" parent="wall"]
+
+[node name="left" type="CSGBox" parent="wall/rand_separator"]
+transform = Transform( -1, 0, -1.19209e-07, 0, 1, 0, 1.19209e-07, 0, -1, -14, 4, -18 )
+use_collision = true
+width = 8.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="right" type="CSGBox" parent="wall/rand_separator"]
+transform = Transform( -1, 0, -1.19209e-07, 0, 1, 0, 1.19209e-07, 0, -1, 14, 4, -18 )
+use_collision = true
+width = 8.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="in_wall" type="Spatial" parent="wall"]
+
+[node name="1" type="CSGBox" parent="wall/in_wall"]
+transform = Transform( -1, 0, -1.19209e-07, 0, 1, 0, 1.19209e-07, 0, -1, 0, 4, -7.9 )
+use_collision = true
+width = 8.28
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="2" type="CSGBox" parent="wall/in_wall"]
+transform = Transform( -7.54979e-08, 0, 1, 0, 1, 0, -1, 0, -7.54979e-08, 10.1, 4, -18 )
+use_collision = true
+width = 8.28
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="3" type="CSGBox" parent="wall/in_wall"]
+transform = Transform( -1, 0, -1.19209e-07, 0, 1, 0, 1.19209e-07, 0, -1, 0, 4, -28.1 )
+use_collision = true
+width = 8.28
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="4" type="CSGBox" parent="wall/in_wall"]
+transform = Transform( -7.54979e-08, 0, 1, 0, 1, 0, -1, 0, -7.54979e-08, -10.1, 4, -18 )
+use_collision = true
+width = 8.28
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="in_corner" type="Spatial" parent="wall"]
+
+[node name="1" type="CSGBox" parent="wall/in_corner"]
+transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 7.1, 4, -10.9 )
+use_collision = true
+width = 8.57
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="2" type="CSGBox" parent="wall/in_corner"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 7.1, 4, -25.1 )
+use_collision = true
+width = 8.57
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="3" type="CSGBox" parent="wall/in_corner"]
+transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -7.1, 4, -25.1 )
+use_collision = true
+width = 8.57
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="4" type="CSGBox" parent="wall/in_corner"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, -7.1, 4, -10.9 )
+use_collision = true
+width = 8.57
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="out_corner" type="Spatial" parent="wall"]
+
+[node name="1" type="CSGBox" parent="wall/out_corner"]
+transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 12.9, 4, -5.1 )
+use_collision = true
+width = 14.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="2" type="CSGBox" parent="wall/out_corner"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 12.9, 4, -30.9 )
+use_collision = true
+width = 14.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="3" type="CSGBox" parent="wall/out_corner"]
+transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -12.9, 4, -30.9 )
+use_collision = true
+width = 14.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="4" type="CSGBox" parent="wall/out_corner"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, -12.9, 4, -5.1 )
+use_collision = true
+width = 14.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="out_wall" type="Spatial" parent="wall"]
+
+[node name="1" type="CSGBox" parent="wall/out_wall"]
+transform = Transform( -8.9407e-08, 0, 1, 0, 1, 0, -1, 0, -8.9407e-08, -17.9, 4, -18 )
+use_collision = true
+width = 16.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="2" type="CSGBox" parent="wall/out_wall"]
+transform = Transform( -8.9407e-08, 0, 1, 0, 1, 0, -1, 0, -8.9407e-08, 17.9, 4, -18 )
+use_collision = true
+width = 16.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="end" type="CSGPolygon" parent="wall"]
+use_collision = true
+polygon = PoolVector2Array( 8, 8, 8, 0, 2, 0, 2, 5, -2, 5, -2, 0, -8, 0, -8, 8 )
+depth = 0.2
+material = ExtResource( 1 )
+
+[node name="platform" type="CSGPolygon" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, -0.1, -18 )
+use_collision = true
+polygon = PoolVector2Array( -8, -18, -18, -8, -18, 8, -8, 18, 8, 18, 18, 8, 18, -8, 8, -18 )
+depth = 0.2
+material = ExtResource( 3 )
+
+[node name="roof" type="CSGPolygon" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 7.9, -18 )
+use_collision = true
+polygon = PoolVector2Array( -8, -18, -18, -8, -18, 8, -8, 18, 8, 18, 18, 8, 18, -8, 8, -18 )
+depth = 0.2
+material = ExtResource( 3 )
+
+[connection signal="body_entered" from="door_node/area_trigger" to="door_node" method="body_entered"]

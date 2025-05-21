@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/chime_main.wav-47c4cd1f17bebdd6589ed7fcc7c42329.sample"
+
+[deps]
+
+source_file="res://music/se/chime_main.wav"
+dest_files=[ "res://.import/chime_main.wav-47c4cd1f17bebdd6589ed7fcc7c42329.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,120 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://data/script/random_door.gd" type="Script" id=1]
+[ext_resource path="res://data/material/wall.tres" type="Material" id=2]
+[ext_resource path="res://data/material/platform.tres" type="Material" id=3]
+[ext_resource path="res://music/audio_node.tscn" type="PackedScene" id=4]
+
+[sub_resource type="GDScript" id=4]
+script/source = "extends Spatial
+
+#ready
+func _ready():
+	$audio/bgm/play_music.play()
+	Global.game_data.room_center = Spatial.new()
+	Global.game_data.room_center.set_name(\"all_rooms\")
+	add_child(Global.game_data.room_center)
+	var player_0 = preload(\"res://data/scene/player.tscn\").instance()
+	player_0.global_transform = $player_position.global_transform
+	player_0.set_name(\"player_0\")
+	add_child(player_0)
+	$player_position.queue_free()
+"
+
+[sub_resource type="Environment" id=1]
+background_mode = 1
+ambient_light_color = Color( 0.117647, 0.117647, 0.117647, 1 )
+fog_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 16, 3, 2 )
+
+[node name="test_generation" type="Spatial"]
+script = SubResource( 4 )
+
+[node name="light_object" type="Spatial" parent="."]
+
+[node name="environment" type="WorldEnvironment" parent="light_object"]
+environment = SubResource( 1 )
+
+[node name="directional_light" type="DirectionalLight" parent="light_object"]
+transform = Transform( 0.933013, 0.272692, 0.23479, -0.272693, 0.11008, 0.955783, 0.234789, -0.955783, 0.177067, 0, 10, 0 )
+visible = false
+light_color = Color( 0.427451, 0.427451, 0.427451, 1 )
+
+[node name="main_room" type="Spatial" parent="."]
+
+[node name="door_node" type="Spatial" parent="main_room"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="area_trigger" type="Area" parent="main_room/door_node"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
+
+[node name="collision_shape" type="CollisionShape" parent="main_room/door_node/area_trigger"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+shape = SubResource( 3 )
+
+[node name="position" type="Position3D" parent="main_room/door_node"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10 )
+
+[node name="wall" type="Spatial" parent="main_room"]
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="1" type="CSGPolygon" parent="main_room/wall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.8 )
+use_collision = true
+polygon = PoolVector2Array( 16, 8, 16, 0, 2, 0, 2, 5, -2, 5, -2, 0, -16, 0, -16, 8 )
+depth = 0.2
+material = ExtResource( 2 )
+
+[node name="2" type="CSGBox" parent="main_room/wall"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 4, 9.9 )
+use_collision = true
+width = 32.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 2 )
+
+[node name="3" type="CSGBox" parent="main_room/wall"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 15.9, 4, -5.96046e-08 )
+use_collision = true
+width = 20.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 2 )
+
+[node name="4" type="CSGBox" parent="main_room/wall"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -15.9, 4, -5.96046e-08 )
+use_collision = true
+width = 20.0
+height = 8.0
+depth = 0.2
+material = ExtResource( 2 )
+
+[node name="platform" type="CSGBox" parent="main_room"]
+use_collision = true
+width = 32.0
+height = 0.2
+depth = 20.0
+material = ExtResource( 3 )
+
+[node name="roof" type="CSGBox" parent="main_room"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0 )
+use_collision = true
+width = 32.0
+height = 0.2
+depth = 20.0
+material = ExtResource( 3 )
+
+[node name="player_position" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+
+[node name="audio" parent="." instance=ExtResource( 4 )]
+
+[connection signal="body_entered" from="main_room/door_node/area_trigger" to="main_room/door_node" method="body_entered"]

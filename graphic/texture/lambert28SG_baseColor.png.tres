@@ -1,0 +1,5 @@
+[gd_resource type="StreamTexture" format=2]
+
+[resource]
+flags = 7
+load_path = "res://.import/lambert28SG_baseColor.png-e5d11c266bc8cf0db2668aa4b1823c3e.s3tc.stex"

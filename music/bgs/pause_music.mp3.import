@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pause_music.mp3-dee7f7f67b713eaf2ddf2bb5482263af.mp3str"
+
+[deps]
+
+source_file="res://music/bgs/pause_music.mp3"
+dest_files=[ "res://.import/pause_music.mp3-dee7f7f67b713eaf2ddf2bb5482263af.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
